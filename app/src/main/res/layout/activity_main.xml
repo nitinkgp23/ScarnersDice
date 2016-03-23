@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.iitkgp.nitin.scarnersdice.MainActivity"
+    android:background="@android:color/black">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="RESET"
+        android:id="@+id/reset_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/turn_score"
+        android:layout_alignStart="@+id/turn_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/p1_score"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/p2_score"
+        android:layout_above="@+id/reset_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:rotation="180"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/turn_score"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/dice1"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/turn_score"
+        android:layout_alignEnd="@+id/turn_score" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="HOLD"
+        android:id="@+id/hold_button1"
+        android:layout_below="@+id/PLAYER1"
+        android:layout_toRightOf="@+id/turn_score"
+        android:layout_toEndOf="@+id/turn_score" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="ROLL"
+        android:id="@+id/roll_button1"
+        android:layout_below="@+id/PLAYER1"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Player 1"
+        android:id="@+id/PLAYER1"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="roll"
+        android:id="@+id/roll_button2"
+        android:rotation="180"
+        android:layout_above="@+id/turn_score"
+        android:layout_toRightOf="@+id/turn_score"
+        android:layout_toEndOf="@+id/turn_score" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="hold"
+        android:id="@+id/hold_button2"
+        android:rotation="180"
+        android:layout_above="@+id/turn_score"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Player 2"
+        android:id="@+id/PLAYER2"
+        android:layout_above="@+id/roll_button2"
+        android:layout_centerHorizontal="true"
+        android:rotation="180"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
