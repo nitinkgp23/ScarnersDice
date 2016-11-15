@@ -52,4 +52,6 @@ Make that game a multiplayer game in which 2 players with 2 mobiles can play con
 
 - [ ] Fast mode: Rather than rolling the dice a variable number of times, the user picks a number of dice to roll then rolls those dice all at once. If a 1 is shown, the user gets nothing. If no 1 is shown, the user gets the sum of the dice. In either case, the turn is over and the other player takes a turn. You can read more about this game in this [research paper](http://personal.vu.nl/h.c.tijms/morfismospaper.pdf).
 
+----------------
 
+Feel free to report any issues and bugs. For working on this project, fork it and make changes. Get back to me by submitting a pull request.
