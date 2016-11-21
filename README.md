@@ -57,4 +57,4 @@ Make that game a multiplayer game in which 2 players with 2 mobiles can play con
 Feel free to report any issues and bugs. For working on this project, fork it and make changes. Get back to me by submitting a pull request.
 
 -----------------
-![Image](https://postimg.org/image/6b0nr7h37/)
+[![15133703_1164109920346740_264781946_o.jpg](https://s18.postimg.org/grcyd788p/15133703_1164109920346740_264781946_o.jpg)](https://postimg.org/image/3zys6oygl/)
